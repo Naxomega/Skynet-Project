@@ -1,6 +1,5 @@
-TERMINATOR Lib is a custom Python library for Raspberry Pi
-It uses gpiozero to create functions to control motors.
-I wrote that code for a school project.
-This code is intended to be used with 4 Motors and an Ultrasonic Distance Sensor.
-I will not maintain it at all, when it's finished, it's finished, but you can still fork it if you want...
-I will probably add another file, it's a script to make the robot autonomous and it will use TERMINATOR Lib
+TERMINATOR Project is a DIY robot that uses a Raspberry Pi as its microcontroller
+It's a school project with some of my friends.
+There will be 2 files (or 3)
+TERMINATOR Lib, which is a custom Python library, and TERMINATOR Auto, to make the robot autonomous.
+(and the 3rd file is a dashboard, with camera access and manual control, and it's a friend who wrote that code)
