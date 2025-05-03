@@ -13,6 +13,8 @@ motor_left_forward = PWMOutputDevice(17)
 motor_left_backward = PWMOutputDevice(27)
 motor_right_forward = PWMOutputDevice(3)
 motor_right_backward = PWMOutputDevice(2)
+# Define the GPIO pin for the ultrasonic sensor
+sonar = DistanceSensor(echo=4, trigger=22, max_distance=1.0)
 
 def forward_slow():
     """
@@ -78,3 +80,24 @@ def direct_right():
     motor_left_backward.value = 0  # Stop the backward motor
     motor_right_forward.value = 0  # Stop the forward motor
     motor_right_backward.value = 0.4  # Set the motor to move backward at half speed
+def turn_left():
+    """
+    Rotate the robot to the left (0.6-0.4) (This needs more testing).
+    """
+    motor_left_forward.value = 0.6  # Set the motor to move forward at half speed
+    motor_left_backward.value = 0  # Stop the backward motor
+    motor_right_forward.value = 0.4  # Set the motor to move forward at half speed
+    motor_right_backward.value = 0  # Stop the backward motor
+def turn_right():
+    """
+    Rotate the robot to the right (0.4-0.6) (This needs more testing).
+    """
+    motor_left_forward.value = 0.4  # Set the motor to move forward at half speed
+    motor_left_backward.value = 0  # Stop the backward motor
+    motor_right_forward.value = 0.6  # Set the motor to move forward at half speed
+    motor_right_backward.value = 0  # Stop the backward motor
+def distance_front():
+    """
+    Get the distance from the ultrasonic sensor.
+    """
+    return sonar.distance  # Return the distance from the ultrasonic sensor
