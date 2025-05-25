@@ -4,6 +4,8 @@ TERMINATOR Project is a DIY robot that uses a Raspberry Pi as its microcontrolle
 
 ---Danywigles text
 Hello people! o/
+
+
 (_(               
 /_/'_____/)       
 "  |      |     
