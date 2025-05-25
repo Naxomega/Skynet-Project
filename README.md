@@ -6,7 +6,7 @@ TERMINATOR Project is a DIY robot that uses a Raspberry Pi as its microcontrolle
 Hello people! o/
 
 
-(_(               
+(_(s           
 /_/'_____/)       
 "  |      |     
    |""""""|   
