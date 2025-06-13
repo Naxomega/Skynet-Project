@@ -23,5 +23,4 @@ bluetooth controller support and functionnality
 
 To Do:
 actually make the code work with a sonic sensor... and not have it be a random number generator
-^^^
-looking at u Naxo :3
+
