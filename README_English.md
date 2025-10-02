@@ -1,5 +1,4 @@
-TERMINATOR Project is a DIY robot that uses a Raspberry Pi as its microcontroller
-It's a school project with some of my friends.
-There will be 2 files (or 3)
-TERMINATOR Lib, which is a custom Python library, and TERMINATOR Auto, to make the robot autonomous.
-(and the 3rd file is a dashboard, with camera access and manual control, and it's a friend who wrote that code)
+Skynet is a D.I.Y Robot that uses a Raspberry Pi as it's microcontroller
+It's a school project with some friends
+The objective of this project is that everyone can make it,and that begins with open-source code.
+Here will be available some documentation so you can make it by yourself.
